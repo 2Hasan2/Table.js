@@ -1,4 +1,4 @@
-# DataTable.js
+# Table.js
 
 ## Overview
 
