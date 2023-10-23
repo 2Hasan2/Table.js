@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DataTable</title>
+    <link rel="stylesheet" href="style.css">  
+    <script src="Table.js"></script>
+</head>
+<body>
+  <table id="table_0">
+  </table>
+  <script>   
+    const dataTable = new DataTable('table_0',["TimeStamp", "TempC", "Humidity", "lightdecimal", "Lightsigned", "Brightness"]);
+
+    dataTable.addRow({
+      "TimeStamp": "2023-10-23 12:00:00",
+      "TempC": "23.5°C",
+      "Humidity": "40%",
+      "lightdecimal": 15.6,
+      "Lightsigned": 964,
+      "Brightness": "80%"
+    });
+
+    dataTable.addRow({
+      "TimeStamp": "2020-11-21 10:35:40",
+      "TempC": "21.5°C",
+      "Humidity": "47%",
+      "lightdecimal": 11.3,
+      "Lightsigned": 473,
+      "Brightness": "26%"
+    });
+    
+    dataTable.addRow({
+      "TimeStamp": "2020-11-21 10:35:40",
+      "TempC": "21.5°C",
+      "Humidity": "47%",
+      "lightdecimal": 11.3,
+      "Lightsigned": 473,
+      "Brightness": "26%"
+    });
+    
+    dataTable.addRow({
+      "TimeStamp": "2020-11-21 10:35:40",
+      "TempC": "21.5°C",
+      "Humidity": "47%",
+      "lightdecimal": 11.3,
+      "Lightsigned": 473,
+      "Brightness": "26%"
+    });
+
+    // console.log(dataTable.getRow(0));
+
+    // console.log(dataTable.getCell(0, 1));
+
+    // dataTable.deleteRow(0);
+
+    dataTable.clear();
+
+    // dataTable.addheader('New Header');
+
+    // fetch data from server
+    // fetch('http://localhost:3000/data')
+    //   .then(response => response.json())
+    //   .then(data => {
+    //     console.log(data);
+    //     data.forEach(row => {
+    //       dataTable.addRow(row);
+    //     });
+    //   })
+    //   .catch(error => console.error(error));
+  </script>
+</body>
+</html>
