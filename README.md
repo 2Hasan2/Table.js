@@ -17,7 +17,7 @@ DataTable.js is a script file for creating dynamic data tables. It allows you to
 You can use DataTable.js in your project by including the script in your HTML file.
 
 ```html
-<script src="DataTable.js"></script>
+<script src="Table.js"></script>
 ```
 
 ## Usage
