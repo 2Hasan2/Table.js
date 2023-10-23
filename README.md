@@ -2,7 +2,7 @@
 
 ## Overview
 
-DataTable.js is a script file for creating dynamic data tables. It allows you to easily create and manipulate data tables in your web applications or games.
+`Table.js` is a script file for creating dynamic data tables. It allows you to easily create and manipulate data tables in your web applications or games.
 
 ## Features
 
